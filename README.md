@@ -5,7 +5,7 @@
 | 01 | Introduction: Introdution to Python programming and Jupyter notebook | |
 | 02 | Classification I: Detecting ghost introgressed fragments with logistic regression I | [![Section_02](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xin-huang/pgml/blob/dev/Section_02/Classification_I.ipynb) | 
 | 03 | Classification II: Detecting ghost introgressed fragments with logistic regression II | |
-| 04 | Classification III: Detecting ghost introgressed fragments with decisition trees | | 
+| 04 | Classification III: Detecting ghost introgressed fragments with decision trees | | 
 | 05 | Classification IV: Detecting ghost introgressed fragments with artificial neural networks | | 
 | 06 | Regression: Detecting ghost introgressed fragments as a regression problem  | | 
 | 07 | Clustering I: Detecting population structure with dimensionality reduction techniques | | 
