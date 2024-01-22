@@ -1,6 +1,6 @@
 import os, pickle, pybedtools
 import numpy as np
-import matplotlit.pyplot as plt
+import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
