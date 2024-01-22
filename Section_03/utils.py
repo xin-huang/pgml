@@ -28,7 +28,7 @@ def train(feature_file, model_file):
     pickle.dump(model, open(model_file, "wb"))
     
  
- def infer(feature_file, model_file, output):
+def infer(feature_file, model_file, output):
     """
     Description:
         Function for inference using the sklearn logistic classifciation.
@@ -58,7 +58,7 @@ def train(feature_file, model_file):
     ).to_csv(output, sep="\t", index=False)
     
     
- def get_inferred_tracts(prediction_file, cutoff, output):
+def get_inferred_tracts(prediction_file, cutoff, output):
     """
     Description:
         Obtains inferred introgressed fragments from predictions.
@@ -84,7 +84,7 @@ def train(feature_file, model_file):
                              header=False, index=False)
                              
                              
- def cal_pr(ntruth_tracts, ninferred_tracts, ntrue_positives):
+def cal_pr(ntruth_tracts, ninferred_tracts, ntrue_positives):
     """
     Description:
         Calculates precision and recall.
@@ -106,7 +106,7 @@ def train(feature_file, model_file):
     return precision, recall
     
     
- def evaluate(truth_tract_file, inferred_tract_file, cutoff, output):
+def evaluate(truth_tract_file, inferred_tract_file, cutoff, output):
     """
     Description:
         Evaluates model performance with precision and recall.
@@ -204,7 +204,7 @@ def train(feature_file, model_file):
     res.fillna('NaN').to_csv(output, sep="\t", index=False)
     
     
- def plot(summary_file):
+def plot(summary_file):
     """
     Description:
         Plots the precision-recall curve.
