@@ -2,7 +2,7 @@
 
 | Section | Summary | Google Colab |
 | - | - | - |
-| 01 | Introduction: Introdution to Python programming and Jupyter notebook | |
+| 01 | Introduction: Introdution to Jupyter Notebook and Python programming | |
 | 02 | Classification I: Detecting ghost introgressed fragments with logistic regression I | [![Section_02](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xin-huang/pgml/blob/dev/Section_02/Classification_I.ipynb) | 
 | 03 | Classification II: Detecting ghost introgressed fragments with logistic regression II | |
 | 04 | Classification III: Detecting ghost introgressed fragments with decision trees | | 
