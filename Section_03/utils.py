@@ -225,12 +225,12 @@ def plot(summary_file):
     
     
 def q1(Power):
-    if Power == '': return 'Choose a metric'
+    if Power == '': return 'Please choose a metric'
     if Power == 'Precision': return 'Correct'
     else: return 'Not correct'
 
 
 def q2(FDR):
-    if FDR == '': return 'Choose a metric'
+    if FDR == '': return 'Please choose a metric'
     if FDR == 'Recall': return 'Correct'
     else: return 'Not correct'
