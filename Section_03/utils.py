@@ -223,7 +223,31 @@ def plot(summary_file):
     plt.legend()
     plt.show()
     
-    
+
+def t1q1(TP):
+    if TP == '': return 'Please choose a value'
+    if TP == 4: return 'Correct'
+    else: return 'Not correct'
+
+
+def t1q2(FP):
+    if FP == '': return 'Please choose a value'
+    if FP == 3: return 'Correct'
+    else: return 'Not correct'
+
+
+def t1q3(TN):
+    if TN == '': return 'Please choose a value'
+    if TN == 1: return 'Correct'
+    else: return 'Not correct'
+
+
+def t1q4(FN):
+    if FN == '': return 'Please choose a value'
+    if FN == 2: return 'Correct'
+    else: return 'Not correct'
+
+
 def q1(Power):
     if Power == '': return 'Please choose a metric'
     if Power == 'Recall': return 'Correct'
