@@ -225,36 +225,36 @@ def plot(summary_file):
     
 
 def t1q1(TP):
-    if TP == '': return 'Please choose a value'
-    if TP == 4: return 'Correct'
-    else: return 'Not correct'
+    if TP == '': return 'Please choose a value for the True Positives.'
+    if TP == 4: return 'Correct!'
+    else: return 'Not correct.'
 
 
 def t1q2(FP):
-    if FP == '': return 'Please choose a value'
-    if FP == 3: return 'Correct'
-    else: return 'Not correct'
+    if FP == '': return 'Please choose a value for the False Positives.'
+    if FP == 3: return 'Correct!'
+    else: return 'Not correct.'
 
 
 def t1q3(TN):
-    if TN == '': return 'Please choose a value'
-    if TN == 1: return 'Correct'
-    else: return 'Not correct'
+    if TN == '': return 'Please choose a value for the True Negatives.'
+    if TN == 1: return 'Correct!'
+    else: return 'Not correct.'
 
 
 def t1q4(FN):
-    if FN == '': return 'Please choose a value'
-    if FN == 2: return 'Correct'
-    else: return 'Not correct'
+    if FN == '': return 'Please choose a value for the False Negatives.'
+    if FN == 2: return 'Correct!'
+    else: return 'Not correct.'
 
 
 def q1(Power):
-    if Power == '': return 'Please choose a metric'
-    if Power == 'Recall': return 'Correct'
-    else: return 'Not correct'
+    if Power == '': return 'Please choose a metric.'
+    if Power == 'Recall': return 'Correct!'
+    else: return 'Not correct.'
 
 
 def q2(FDR):
-    if FDR == '': return 'Please choose a metric'
-    if FDR == '1-Precision': return 'Correct'
-    else: return 'Not correct'
+    if FDR == '': return 'Please choose a metric.'
+    if FDR == '1-Precision': return 'Correct!'
+    else: return 'Not correct.'
